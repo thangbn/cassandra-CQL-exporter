@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, Bui Nguyen Thang, thang.bn@live.com, thangbui.net. All rights reserved.
+ * Copyright (c) 2016, Bui Nguyen Thang-Bob, thang.bn@live.com, thangbui.net. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,7 +12,7 @@ package net.thangbui.cql_exporter;
 import org.apache.commons.cli.*;
 
 /**
- * Created by Bui Nguyen Thang on 5/27/2016.
+ * Created by Bui Nguyen Thang-Bob on 5/27/2016.
  */
 public class Main {
     public static final String LINE_SEPARATOR = System.getProperty("line.separator");
@@ -22,6 +22,7 @@ public class Main {
         CommandLineParser parser  = new DefaultParser();
         Options           options = OptionsBuilder.build();
         CommandLine       cmd;
+
         try {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {

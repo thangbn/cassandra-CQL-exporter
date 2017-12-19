@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, Bui Nguyen Thang, thang.buinguyen@gmail.com, thangbui.net. All rights reserved.
+ * Copyright (c) 2016, Bui Nguyen Thang-Bob, thang.bn@live.com. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by Bui Nguyen Thang on 6/3/2016.
+ * Created by Bui Nguyen Thang-Bob on 6/3/2016.
  */
 public class Utils {
     private final static List<String> RESERVED_KEYWORDS = Arrays.asList("ADD", "ALLOW", "ALTER", "AND", "ANY", "APPLY", "ASC", "AUTHORIZE", "BATCH", "BEGIN", "BY", "COLUMNFAMILY", "CREATE", "DELETE", "DESC", "DROP", "EACH_QUORUM", "FROM", "GRANT", "IN", "INDEX", "INET", "INSERT", "INTO", "KEYSPACE", "KEYSPACES", "LIMIT", "LOCAL_ONE", "LOCAL_QUORUM", "MODIFY", "NORECURSIVE", "OF", "ON", "ONE", "ORDER", "PASSWORD", "PRIMARY", "QUORUM", "RENAME", "REVOKE", "SCHEMA", "SELECT", "SET", "TABLE", "TO", "TOKEN", "THREE", "TRUNCATE", "TWO", "UNLOGGED", "UPDATE", "USE", "USING", "WHERE", "WITH");

@@ -7,7 +7,7 @@
     <description>An command line utility to generate CQL script for an Apache Cassandra database</description>
     <developers>
         <developer>
-            <name>Bui Nguyen Thang</name>
+            <name>Bui Nguyen Thang-Bob</name>
             <email>thang.buinguyen@gmail.com</email>
             <url>thangbui.net</url>
             <roles>
